@@ -22,7 +22,7 @@ function processFields(fields) {
 	// console.log(fields);
 	var x = parseInt(fields[0]);
 	var p1 = parseFloat(fields[1].replace(',','.'));
-	var p2 = parseFloat(fields[3].replace(',','.'));
+	var p2 = parseFloat(fields[2].replace(',','.'));
 
 	if(p1 > curve1_max) {
 		curve1_max = p1;
