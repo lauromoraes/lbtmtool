@@ -126,7 +126,8 @@ function handleFile1(e) {
 	var file1 = e.target.files[0]; // FileList object
 	console.log(file1);
 	$('body').append('<div id="output01"></div>');
-	if(file1.type == 'text/csv') {
+	//if(file1.type == 'text/csv') {
+	if(true) {
 		$('#out').text('OK!');
 		$('#output01').text('DONE');
 		var reader = new FileReader();
