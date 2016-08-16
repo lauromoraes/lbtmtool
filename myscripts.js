@@ -79,7 +79,7 @@ function plotGraph() {
 			x: -20
 		},
 		subtitle: {
-			text: 'Teste',
+			text: '',
 			x: -20
 		},
 		xAxis: {
