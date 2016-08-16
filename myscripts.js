@@ -79,7 +79,7 @@ function plotGraph() {
 			x: -20
 		},
 		subtitle: {
-			text: '',
+			text: 'Comprimento de onda (nm) X Absorbância',
 			x: -20
 		},
 		xAxis: {
