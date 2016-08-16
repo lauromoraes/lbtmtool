@@ -84,13 +84,13 @@ function plotGraph() {
 		},
 		xAxis: {
 			title: {
-				text: 'Comprimento (nm)'
+				text: 'Comprimento de onda (nm)'
 			},
 			categories: x_labels
 		},
 		yAxis: {
 			title: {
-				text: 'Intensidade'
+				text: 'Absorbância'
 			}
 		},
 		tooltip:{
@@ -104,7 +104,7 @@ function plotGraph() {
 				var valB = aux2_points[posB];
 
 				var html = "<b>Comprimento:</b> " + this.x + " nm<br><hr>";
-				html += "<b>Intensidades:</b><br>";
+				html += "<b>Absorbâncias:</b><br>";
 				html += "<ul>";
 				html += "<li>" + this.points[1].series.name + " : " + valA + "</li><br>";
 				html += "<li>" + this.points[0].series.name + " : " + valB + "</li><br>";
